@@ -17,8 +17,8 @@ app.secret_key = "thisismysecretkey"
 
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'MyNewPass'
+app.config['MYSQL_USER'] = 'iss-user'
+app.config['MYSQL_PASSWORD'] = 'iss-user'
 app.config['MYSQL_DB'] = 'cc_schema'
 
 mysql = MySQL(app)
